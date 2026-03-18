@@ -1,3 +1,43 @@
 <resources>
-    <string name="app_name">sensor_testing</string>
+    <string name="app_name">IMU Sensor</string>
+
+    <!-- Header -->
+    <string name="imu_header">IMU Sensor Unit</string>
+    <string name="fusion_status_idle">Fusion: Idle</string>
+    <string name="fusion_status_active">Fusion: Active</string>
+
+    <!-- Orientation -->
+    <string name="orientation_title">Orientation (Fused)</string>
+    <string name="label_pitch">Pitch</string>
+    <string name="label_roll">Roll</string>
+    <string name="label_yaw">Yaw</string>
+    <string name="default_degree">0.0°</string>
+
+    <!-- Sensor cards -->
+    <string name="accel_title">Accelerometer</string>
+    <string name="gyro_title">Gyroscope</string>
+    <string name="mag_title">Magnetometer</string>
+    <string name="baro_title">Barometer</string>
+
+    <!-- Axes -->
+    <string name="label_x">X</string>
+    <string name="label_y">Y</string>
+    <string name="label_z">Z</string>
+
+    <!-- Barometer labels -->
+    <string name="label_pressure">Pressure</string>
+    <string name="label_altitude">Est. Altitude</string>
+
+    <!-- Units -->
+    <string name="unit_ms2">m/s²</string>
+    <string name="unit_rads">rad/s</string>
+    <string name="unit_ut">µT</string>
+
+    <!-- Defaults -->
+    <string name="default_value">+0.00</string>
+    <string name="default_pressure">1013.3 hPa</string>
+    <string name="default_altitude">0.0 m</string>
+
+    <!-- Button -->
+    <string name="btn_reset_fusion">Reset Fusion</string>
 </resources>

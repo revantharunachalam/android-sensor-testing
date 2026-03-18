@@ -40,7 +40,6 @@ local.properties
 
 # BMad workflows
 _bmad/
-_bmad-output/
 
 # Cursor skills
 .cursor/
