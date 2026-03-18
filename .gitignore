@@ -25,3 +25,22 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# Gradle
+.gradle/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+
+# Native (CMake/NDK) build artifacts
+app/.cxx/
+
+# Local configuration (SDK paths)
+local.properties
+
+# BMad workflows
+_bmad/
+_bmad-output/
+
+# Cursor skills
+.cursor/
